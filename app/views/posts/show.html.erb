@@ -1,2 +1,23 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<h1><%= @post.title %></h1>
+
+<p>
+  <small>
+    Published at <%= @post.created_at.strftime('%Y/%m/%y: %H:%M:%S') unless @post.created_at.nil? %>
+  </small>
+</p>
+
+<ul class="tag_list">
+  <% @post.tags.each do |tag| %>
+    <li class="tag">
+      <%= tag %>
+    </li>
+  <% end %>
+</ul>
+
+<p>
+  <%= @post.body %>
+</p>
+
+<p>
+  <%= link_to 'Return to listing', root_path %>
+</p>

@@ -248,6 +248,7 @@ DEPENDENCIES
   mongoid
   mongoid-rspec
   rails (= 4.2.1)
+  responders
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

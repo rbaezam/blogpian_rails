@@ -3,6 +3,6 @@
 <%= simple_form_for @post, html: { class: 'form-horizontal' } do |f| %>
   <%= f.input :title %>
   <%= f.input :body, as: :text %>
-  <%= f.input :tags, required: false, hint: 'Comma separated list of tags', placeholder: 'books, news, technology, etc' %>
+  <%= f.input :tags_string, required: false, hint: 'Comma separated list of tags', placeholder: 'books, news, technology, etc' %>
   <%= f.button :submit, 'Preview post', class: 'btn btn-primary' %>
 <% end %>
