@@ -63,3 +63,5 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+ruby "2.2.0"
