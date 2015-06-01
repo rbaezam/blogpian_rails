@@ -6,18 +6,13 @@ Simple blog site using Ruby on Rails and MongoDB.
 
 - Make sure you have installed locally MongoDB
 
-```
-bundle install
-```
+        bundle install
+
 
 === Tests
 
-```
-rspec
-```
+        rspec
 
 === Run
 
-```
-rails s
-```
+        rails s
