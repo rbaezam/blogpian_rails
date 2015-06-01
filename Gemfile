@@ -19,6 +19,7 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'responders'
+gem 'jquery-turbolinks'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
