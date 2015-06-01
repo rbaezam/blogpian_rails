@@ -20,6 +20,7 @@ gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'responders'
 gem 'jquery-turbolinks'
+gem 'actionpack-action_caching'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
